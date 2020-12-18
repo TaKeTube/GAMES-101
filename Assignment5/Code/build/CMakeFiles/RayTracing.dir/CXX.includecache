@@ -1,0 +1,84 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Light.hpp
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Vector.hpp
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Object.hpp
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Vector.hpp
+global.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/global.hpp
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Renderer.cpp
+fstream
+-
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Vector.hpp
+Renderer.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Renderer.hpp
+Scene.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Scene.hpp
+optional
+-
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Renderer.hpp
+Scene.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Scene.hpp
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Scene.hpp
+vector
+-
+memory
+-
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Vector.hpp
+Object.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Object.hpp
+Light.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Light.hpp
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Sphere.hpp
+Object.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Object.hpp
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Vector.hpp
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Triangle.hpp
+Object.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Object.hpp
+cstring
+-
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Vector.hpp
+cmath
+-
+iostream
+-
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/global.hpp
+cmath
+-
+iostream
+-
+random
+-
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/main.cpp
+Scene.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Scene.hpp
+Sphere.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Sphere.hpp
+Triangle.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Triangle.hpp
+Light.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Light.hpp
+Renderer.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment5/Code/Renderer.hpp
+
