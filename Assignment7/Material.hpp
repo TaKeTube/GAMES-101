@@ -92,7 +92,10 @@ public:
     //Vector3f m_color;
     Vector3f m_emission;
     float ior;
+    float alpha; // roughness
+    Vector3f rho; // intrinsic color
     Vector3f Kd, Ks;
+    Vector3f F0;
     float specularExponent;
     //Texture tex;
 
@@ -198,11 +201,8 @@ Vector3f Material::eval(const Vector3f &wi, const Vector3f &wo, const Vector3f &
             Vector3f h = (wi + wo).normalized();
             float NdotWi = dotProduct(N, wi);
             float Ndoth = dotProduct(N, h);
-            Vector3f rho = Kd;
-            float alpha = 0.1; // Roughness
             Vector3f lambert = rho/M_PI;
             
-            Vector3f F0 = Vector3f(0.77f,0.78f,0.78f);
             Vector3f F = F0 + (Vector3f(1.0f)-F0)*pow(1-NdotWo,5);
             
             float k = (alpha+1)*(alpha+1)*0.125f;

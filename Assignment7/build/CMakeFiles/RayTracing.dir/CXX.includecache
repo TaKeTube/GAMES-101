@@ -58,6 +58,20 @@ D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Material.hpp
 Vector.hpp
 D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Vector.hpp
 
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/OBJ_Loader.hpp
+optional
+-
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+math.h
+-
+
 D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Object.hpp
 Vector.hpp
 D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Vector.hpp
@@ -104,6 +118,16 @@ D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/BVH.hpp
 Ray.hpp
 D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Ray.hpp
 
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Sphere.hpp
+Object.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Object.hpp
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Vector.hpp
+Bounds3.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Bounds3.hpp
+Material.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Material.hpp
+
 D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/ThreadPool.hpp
 vector
 -
@@ -124,6 +148,24 @@ functional
 stdexcept
 -
 
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Triangle.hpp
+BVH.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/BVH.hpp
+Intersection.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Intersection.hpp
+Material.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Material.hpp
+OBJ_Loader.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/OBJ_Loader.hpp
+Object.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Object.hpp
+Triangle.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Triangle.hpp
+cassert
+-
+array
+-
+
 D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Vector.hpp
 iostream
 -
@@ -138,5 +180,21 @@ iostream
 cmath
 -
 random
+-
+
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/main.cpp
+Renderer.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Renderer.hpp
+Scene.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Scene.hpp
+Triangle.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Triangle.hpp
+Sphere.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Sphere.hpp
+Vector.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/Vector.hpp
+global.hpp
+D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment7/Assignment7/global.hpp
+chrono
 -
 
