@@ -140,7 +140,7 @@ Vector3f Scene::castRay(const Ray &ray, const Intersection &intersection, int de
         Ray ray2(hitPoint, wi);
         Intersection intersection2 = intersect(ray2);
         if(intersection2.happened && !(intersection2.m->hasEmission())){
-            L_indir = castRay(ray2, intersection2, depth+1) * m->eval(wi, wo, N) * dotProduct(wi, N) / (m->pdf(wi, wo, N) * RussianRoulette);
+            L_indir = castRay(ray2, intersection2, depth+1) * m->eval(wo, wi, N) * dotProduct(wi, N) / (m->pdf(wo, wi, N) * RussianRoulette);
         }
     }
 

@@ -7,7 +7,7 @@
 
 #include "Vector.hpp"
 
-enum MaterialType { DIFFUSE};
+enum MaterialType {DIFFUSE, MICROFACET};
 
 class Material{
 private:
@@ -92,7 +92,10 @@ public:
     //Vector3f m_color;
     Vector3f m_emission;
     float ior;
+    float alpha; // roughness
+    Vector3f rho; // intrinsic color
     Vector3f Kd, Ks;
+    Vector3f F0;
     float specularExponent;
     //Texture tex;
 
@@ -141,8 +144,14 @@ Vector3f Material::sample(const Vector3f &wi, const Vector3f &N){
             float r = std::sqrt(1.0f - z * z), phi = 2 * M_PI * x_2;
             Vector3f localRay(r*std::cos(phi), r*std::sin(phi), z);
             return toWorld(localRay, N);
-            
-            break;
+        }
+        case MICROFACET:
+        {
+            float x_1 = get_random_float(), x_2 = get_random_float();
+            float z = std::fabs(1.0f - 2.0f * x_1);
+            float r = std::sqrt(1.0f - z * z), phi = 2 * M_PI * x_2;
+            Vector3f localRay(r*std::cos(phi), r*std::sin(phi), z);
+            return toWorld(localRay, N);
         }
     }
 }
@@ -152,6 +161,14 @@ float Material::pdf(const Vector3f &wi, const Vector3f &wo, const Vector3f &N){
         case DIFFUSE:
         {
             // uniform sample probability 1 / (2 * PI)
+            if (dotProduct(wo, N) > 0.0f)
+                return 0.5f / M_PI;
+            else
+                return 0.0f;
+            break;
+        }
+        case MICROFACET:
+        {
             if (dotProduct(wo, N) > 0.0f)
                 return 0.5f / M_PI;
             else
@@ -175,7 +192,34 @@ Vector3f Material::eval(const Vector3f &wi, const Vector3f &wo, const Vector3f &
                 return Vector3f(0.0f);
             break;
         }
+        case MICROFACET:
+        {
+            float NdotWo = dotProduct(N, wo);
+            if (NdotWo <= 0.0f) {
+                return Vector3f(0.0f);
+            }
+            Vector3f h = (wi + wo).normalized();
+            float NdotWi = dotProduct(N, wi);
+            float Ndoth = dotProduct(N, h);
+            Vector3f lambert = rho/M_PI;
+            
+            Vector3f F = F0 + (Vector3f(1.0f)-F0)*pow(1-NdotWo,5);
+            
+            float k = (alpha+1)*(alpha+1)*0.125f;
+            float G = NdotWo/(NdotWo*(1-k)+k);
+
+            float alpha2 = alpha*alpha;
+            float temp = (Ndoth*Ndoth*(alpha2-1.0f)+1);
+            float D = alpha2/(M_PI*temp*temp);
+
+            Vector3f cook_torrance = F*D*G/(4*NdotWo*NdotWi);
+
+            float ks = 0.1f;
+            return ks*lambert + (1-ks)*cook_torrance;
+        }
     }
 }
+
+
 
 #endif //RAYTRACING_MATERIAL_H
