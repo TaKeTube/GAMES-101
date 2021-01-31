@@ -22,7 +22,7 @@ SPP 4096
 
 8 thread 108 min (before optimizing)
 
-![19](.\build\Results\19.png)
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/19.png?raw=true)
 
 ---
 
@@ -30,7 +30,7 @@ SPP 4096
 
 forget the data
 
-![22](.\build\Results\22.png)
+![22](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/22.png?raw=true)
 
 ---
 
@@ -40,7 +40,7 @@ SPP 8192
 
 212 mins
 
-![40](.\build\Results\40.png)
+![40](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/40.png?raw=true)
 
 ---
 
@@ -50,7 +50,7 @@ Forget the data
 
 less than 20 mins
 
-![42](.\build\Results\42.png)
+![42](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/42.png?raw=true)
 
 ---
 
@@ -60,7 +60,7 @@ SPP 24576
 
 255 mins
 
-![60](.\build\Results\60.png)
+![60](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/60.png?raw=true)
 
 ---
 
@@ -70,7 +70,7 @@ SPP 12288
 
 322 mins
 
-![61](.\build\Results\61.png)
+![61](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/61.png?raw=true)
 
 ---
 
@@ -80,4 +80,4 @@ SPP 12288
 
 319 mins
 
-![62](.\build\Results\62.png)
+![62](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment7/build/Results/62.png?raw=true)
