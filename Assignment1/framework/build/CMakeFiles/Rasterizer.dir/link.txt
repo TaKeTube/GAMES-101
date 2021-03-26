@@ -1,3 +1,0 @@
-"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Rasterizer.dir/objects.a
-D:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\Rasterizer.dir/objects.a @CMakeFiles\Rasterizer.dir\objects1.rsp
-D:\TDM-GCC-64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\Rasterizer.dir/objects.a -Wl,--no-whole-archive  -o Rasterizer.exe -Wl,--out-implib,libRasterizer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Rasterizer.dir\linklibs.rsp

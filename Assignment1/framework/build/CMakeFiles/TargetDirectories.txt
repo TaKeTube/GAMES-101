@@ -1,3 +1,0 @@
-D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment1/framework/build/CMakeFiles/edit_cache.dir
-D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment1/framework/build/CMakeFiles/Rasterizer.dir
-D:/GZM/study/ELSE/Graphics/GAMES 101/HW/Assignment1/framework/build/CMakeFiles/rebuild_cache.dir
