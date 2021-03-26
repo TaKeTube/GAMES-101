@@ -10,3 +10,10 @@
 
 ### Results
 
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment6/Code/results/1.png?raw=true)
+
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment6/Code/results/5.png?raw=true)
+
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment6/Code/results/6.png?raw=true)
+
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment6/Code/results/7.png?raw=true)

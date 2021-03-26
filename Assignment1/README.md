@@ -14,3 +14,6 @@ Basically you can press <kbd>w</kbd> and <kbd>s</kbd> to trigger animation, <kbd
 
 ### Results
 
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment1/framework/results/1.png?raw=true)
+
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment1/framework/results/2.png?raw=true)

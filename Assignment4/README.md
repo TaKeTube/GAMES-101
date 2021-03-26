@@ -12,3 +12,6 @@
 
 ### Results
 
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment4/code/results/1.png?raw=true)
+
+![](https://github.com/TaKeTube/GAMES-101/blob/master/Assignment4/code/results/2.png?raw=true)
