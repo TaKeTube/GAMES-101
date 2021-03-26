@@ -1,3 +1,0 @@
-depth 5->10
-Triangle.hpp 117-127
-main.cpp 17

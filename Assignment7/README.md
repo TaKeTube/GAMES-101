@@ -1,4 +1,4 @@
-# Assignment 7
+# Assignment 7: Monte Carlo Path Tracing
 
 ### Goal
 
